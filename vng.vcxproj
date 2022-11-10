@@ -123,9 +123,12 @@
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;vulkan-1.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
+      <Command>xcopy "$(VULKAN_SDK)\Bin\SDL2.dll" "out\" /Y /D</Command>
+    </PostBuildEvent>
+    <CustomBuildStep>
       <Command>
       </Command>
-    </PostBuildEvent>
+    </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -147,9 +150,12 @@
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;vulkan-1.lib;VulkanMemoryAllocatorrd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
+      <Command>xcopy "$(VULKAN_SDK)\Bin\SDL2.dll" "out\" /Y /D</Command>
+    </PostBuildEvent>
+    <CustomBuildStep>
       <Command>
       </Command>
-    </PostBuildEvent>
+    </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="lib\imgui\backends\imgui_impl_sdl.cpp" />
