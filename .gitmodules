@@ -1,0 +1,18 @@
+[submodule "lib/vk-bootstrap"]
+	path = lib/vk-bootstrap
+	url = https://github.com/charles-lunarg/vk-bootstrap
+[submodule "lib/VulkanMemoryAllocator"]
+	path = lib/VulkanMemoryAllocator
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
+[submodule "lib/tinyobjloader"]
+	path = lib/tinyobjloader
+	url = https://github.com/tinyobjloader/tinyobjloader
+[submodule "lib/imgui"]
+	path = lib/imgui
+	url = https://github.com/ocornut/imgui
+[submodule "lib/stb"]
+	path = lib/stb
+	url = https://github.com/nothings/stb
+[submodule "lib/stduuid"]
+	path = lib/stduuid
+	url = https://github.com/mariusbancila/stduuid

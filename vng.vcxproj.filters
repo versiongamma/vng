@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{71d61a0a-87ea-4fd9-a036-d9a2a25789a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{a5b697b9-962a-4a8b-844f-168065ecb657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Git">
+      <UniqueIdentifier>{c36b58a7-3a5a-4aeb-a7df-361ccc6cee28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{91d2a428-5cea-491e-8f98-5aa81ddd8caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\VkBootstrap">
+      <UniqueIdentifier>{2ae0e154-9162-46c1-ba24-ef8b3e1a566b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{858f28f5-0a3a-44f2-87f7-3e4638987faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer">
+      <UniqueIdentifier>{f3604c70-db5c-4197-8d73-029269be7392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utils">
+      <UniqueIdentifier>{dda5c4af-6f93-4209-b8c5-9b8997370d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\TinyObjectLoader">
+      <UniqueIdentifier>{4e7851c5-633e-456b-b7f9-09aa73c5ecc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\Source">
+      <UniqueIdentifier>{f43b3efa-fe7a-4bc8-b441-89eeea5c724f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\Headers">
+      <UniqueIdentifier>{8e278781-92aa-4a1d-8f43-4c4eb8e4de22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{8ea2b6d6-a3ae-4b32-bd17-72e69980848a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\ImGui">
+      <UniqueIdentifier>{b25ca6e9-126a-4b00-8164-aba6e87187aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Objects">
+      <UniqueIdentifier>{07af8bc8-0aa0-457a-b9b3-3a06a050af3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{0156c85f-a264-4d98-931a-cae4662cd76b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Scenes">
+      <UniqueIdentifier>{f97f18cc-1770-46ec-94d5-a958a8275851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Entities">
+      <UniqueIdentifier>{b11c6bb2-aa13-4374-bebd-07b2e3d4c8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\stb">
+      <UniqueIdentifier>{1301ddcd-1fd1-4470-ab84-f2685c33f9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\stduuid">
+      <UniqueIdentifier>{294cd978-8b95-475f-b404-d5bf11d416d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\engine\engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\types.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\vk-bootstrap\src\VkBootstrap.cpp">
+      <Filter>Libraries\VkBootstrap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\vulkankinitialisers.cpp">
+      <Filter>Engine\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\pipelinebuilder.cpp">
+      <Filter>Engine\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\tinyobjloader\tiny_obj_loader.cc">
+      <Filter>Libraries\TinyObjectLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\mesh.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\renderer.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\model.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\meshmanager.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\inputhandler.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\camera.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui.cpp">
+      <Filter>Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_demo.cpp">
+      <Filter>Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_draw.cpp">
+      <Filter>Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_tables.cpp">
+      <Filter>Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_widgets.cpp">
+      <Filter>Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\backends\imgui_impl_sdl.cpp">
+      <Filter>Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\backends\imgui_impl_vulkan.cpp">
+      <Filter>Libraries\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\window.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\entity.cpp">
+      <Filter>Engine\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\object.cpp">
+      <Filter>Application\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\scene.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\scenes\scenemain.cpp">
+      <Filter>Application\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\app\player.cpp">
+      <Filter>Application\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\texturemanager.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\stb\stb_vorbis.c">
+      <Filter>Libraries\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\console.cpp">
+      <Filter>Engine\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\engine\engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\types.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\vk-bootstrap\src\VkBootstrapDispatch.h">
+      <Filter>Libraries\VkBootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\vk-bootstrap\src\VkBootstrap.h">
+      <Filter>Libraries\VkBootstrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\vulkankinitialisers.h">
+      <Filter>Engine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\pipelinebuilder.h">
+      <Filter>Engine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\tinyobjloader\tiny_obj_loader.h">
+      <Filter>Libraries\TinyObjectLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\mesh.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\renderer.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\model.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\meshmanager.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\inputhandler.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\window.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imconfig.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_internal.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_rectpack.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_textedit.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_truetype.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\backends\imgui_impl_sdl.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\backends\imgui_impl_vulkan.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\camera.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\entity.h">
+      <Filter>Engine\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\object.h">
+      <Filter>Application\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\scene.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\scenes\scenemain.h">
+      <Filter>Application\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\app\player.h">
+      <Filter>Application\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\texturemanager.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_herringbone_wang_tile.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_hexwave.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_image.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_image_resize.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_image_write.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_include.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_leakcheck.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_perlin.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_rect_pack.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_sprintf.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_textedit.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_tilemap_editor.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_truetype.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_voxel_render.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_c_lexer.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_connected_components.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_divide.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_ds.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_dxt.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stb\stb_easy_font.h">
+      <Filter>Libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\stduuid\include\uuid.h">
+      <Filter>Libraries\stduuid</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\console.h">
+      <Filter>Engine\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore">
+      <Filter>Git</Filter>
+    </None>
+    <None Include=".gitmodules">
+      <Filter>Git</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Git</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="shaders\mesh.frag">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\mesh.vert">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\default.vert">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shaders\default.frag">
+      <Filter>Shaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
